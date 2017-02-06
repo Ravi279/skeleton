@@ -4,8 +4,60 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+one_truck_manager:
+  interviewer: fleet_manger
+  interview: first_driver_interview
+
+one_truck_hr:
+  interviewer: hr
+  interview: first_driver_interview
+
+one_truck_union:
+  interviewer: union
+  interview: first_driver_interview
+
+two_truck_manager:
+  interviewer: fleet_manger
+  interview: second_driver_interview
+
+two_truck_hr:
+  interviewer: hr
+  interview: second_driver_interview
+
+two_truck_union:
+  interviewer: union
+  interview: second_driver_interview
+
+one_lift_manager:
+  interviewer: warehouse
+  interview: first_forklift_interview
+
+one_lift_hr:
+  interviewer: hr
+  interview: first_forklift_interview
+
+one_lift_union:
+  interviewer: union
+  interview: first_forklift_interview
+
+two_lift_manager:
+  interviewer: warehouse
+  interview: second_forklift_interview
+
+two_lift_hr:
+  interviewer: hr
+  interview: second_forklift_interview
+
+two_lift_union:
+  interviewer: union
+  interview: second_forklift_interview
+
+manager_warehouse:
+  interviewer: warehouse
+  interview: first_manager_interview
+
+manager_hr:
+  interviewer: warehouse
+  interview: hr
+
+

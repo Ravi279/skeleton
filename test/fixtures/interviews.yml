@@ -4,8 +4,32 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+first_driver_interview:
+  interview_date: DateTime.now+2.days
+  description: Interviewing Barney Rubble for the truck driver position
+  candidate: barney_rubble
+  position: truck_driver
+
+second_driver_interview:
+  interview_date: DateTime.now+3.days
+  description: Interviewing Fred Flintstone for the truck driver position
+  candidate: fred_flintstone
+  position: truck_driver
+
+first_manager_interview:
+  interview_date: DateTime.now+2.days
+  description: Interviewing Maude Flanders for the manager position
+  candidate: maude_flanders
+  position: inventory_manager
+
+first_forklift_interview:
+  interview_date: DateTime.now+2.days+2.hours
+  description: Interviewing Bill Snakey for the forklift driver position
+  candidate: bill_snakey
+  position: forklift_driver
+
+second_forklift_interview:
+  interview_date: Datetime.now+3.days+2.hours
+  description: interviewing fred flintstone for the forklift driver position
+  candidate: fred_flintsonte
+  position: forklift_driver

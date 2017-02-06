@@ -4,8 +4,12 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+truck_driver: 
+  name: Truck Driver
+  description: Over the road, long haul driver for semi trucks.  Ability to handle a manual transmission is required, as is the appropriate CDL.
+forklift_driver: 
+  name: Forklift Driver
+  description: Warehouse forklift driver.  Second shift, eligible for shift premium.  OSHA forklift cerification required.
+inventory_manager:
+  name: Inventory Manager
+  description: Responsible for managing inventory in the warehouse, ordering new stock, identifying trends of out-of-stock items, and projecting stock replenishment timelines

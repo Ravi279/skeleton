@@ -4,8 +4,22 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+fleet_manager:
+  name: John Babcock
+  role: Fleet Manager
+  email: john.babcock@test.supplies.com
+
+warehouse:
+  name: Rachel Mitchell
+  role: Warehouse Supervisor
+  email: rachel.mitchell@test.supplies.com
+
+hr:
+  name: Fred Hill
+  role: Human Resources Partner
+  email: fred.hill@test.supplies.com
+
+union:
+  name: Sally Field
+  role: Union Rep
+  email: sally.field@local.253.com

@@ -4,8 +4,17 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+<% ['first_driver_interview', 'second_driver_interview', 'first_forklift_interview', 'second_forklift_interview'].each do |interview| %>
+<% ['license','experience', 'delays', 'biggest_weakness', 'biggest_strength'].each do |question| %>
+interview_<%= interview %>_<%= question %>:
+  interview: <%= interview %>
+  question: <%= question %>
+<% end %>
+<% end %>
+
+
+<% ['mangerial_experience', 'biggest_weakness', 'biggest_strength', 'google'].each do |question| %>
+manager_<%= question %>:
+  interview: first_manager_interview
+  question: <%= question %>
+<% end %>
