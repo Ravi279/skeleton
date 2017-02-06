@@ -1,2 +1,0 @@
-class SupportInformation < ApplicationRecord
-end

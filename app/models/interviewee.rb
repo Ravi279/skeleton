@@ -1,2 +1,0 @@
-class Interviewee < ApplicationRecord
-end

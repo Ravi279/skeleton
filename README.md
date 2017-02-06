@@ -2,10 +2,22 @@
 
 Skeleton Application - For discussion during the interview process
 
-Things you may want to cover:
+Important bits of required software:
 
 * Ruby 2.3.1
 
 * Rails 5.0.1
 
 * Sqlite3 db
+
+
+## Application Structure
+
+This application attempts to model some of the information that gets created during the process of 
+interviewing candidates for a position.
+
+As such, it has a model for the Position to be filled, for the Interview(s) for that position,
+for the Candidates for those Positions, who will be interviewed.  It has a model for the Questions
+that will be asked at each interview, with an understanding that some questions will be asked to
+candidates for different positions.  It has a mechanism by which the Interviewers can Rate the answers
+a candidate provides for the questions they are asked.
