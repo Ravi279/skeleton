@@ -1,0 +1,2 @@
+class Interviewee < ApplicationRecord
+end

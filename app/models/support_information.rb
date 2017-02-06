@@ -1,0 +1,2 @@
+class SupportInformation < ApplicationRecord
+end
