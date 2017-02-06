@@ -1,0 +1,2 @@
+class AnswerRating < ApplicationRecord
+end
