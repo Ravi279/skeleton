@@ -26,9 +26,13 @@ a candidate provides for the questions they are asked.
 
 * Interview questions need to be ordered correctly - the test is intermittntly failing now.
 * Need a way to get an average rating of a candidate's answer to questions - exclude the zero rankings - those should not count
-* Could we remove the candidate_id column from an interview and use interview_participants to track both interviewers and candidates in some way?
 * Lets build out a way to get an upcoming interview schedule for an interviewer - it should include:
   * the next two interviews
   * candidate information 
   * a list of questions
+
+## Exploratory Task - if you've got the time to look into it, that'd be great:
+
+* Could we remove the candidate_id column from an interview and use interview_participants to track both interviewers 
+  and candidates in the same table somehow?
 
