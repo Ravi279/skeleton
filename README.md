@@ -21,3 +21,14 @@ for the Candidates for those Positions, who will be interviewed.  It has a model
 that will be asked at each interview, with an understanding that some questions will be asked to
 candidates for different positions.  It has a mechanism by which the Interviewers can Rate the answers
 a candidate provides for the questions they are asked.
+
+## Tasks:
+
+* Interview questions need to be ordered correctly - the test is intermittntly failing now.
+* Need a way to get an average rating of a candidate's answer to questions - exclude the zero rankings - those should not count
+* Could we remove the candidate_id column from an interview and use interview_participants to track both interviewers and candidates in some way?
+* Lets build out a way to get an upcoming interview schedule for an interviewer - it should include:
+  * the next two interviews
+  * candidate information 
+  * a list of questions
+

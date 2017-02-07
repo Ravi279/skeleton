@@ -47,9 +47,9 @@ ActiveRecord::Schema.define(version: 20170206191223) do
   create_table "interview_questions", force: :cascade do |t|
     t.integer  "interview_id"
     t.integer  "question_id"
-    t.integer  "order"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.integer  "display_order"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "interviewers", force: :cascade do |t|
