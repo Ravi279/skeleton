@@ -5,59 +5,81 @@
 # below each fixture, per the syntax in the comments below
 #
 one_truck_manager:
-  interviewer: fleet_manger
+  participant: fleet_manager (Interviewer)
+  interview: first_driver_interview
+
+one_truck_candidate:
+  participant: fred_flintstone (Candidate)
   interview: first_driver_interview
 
 one_truck_hr:
-  interviewer: hr
+  participant: hr (Interviewer)
   interview: first_driver_interview
 
 one_truck_union:
-  interviewer: union
+  participant: union (Interviewer)
   interview: first_driver_interview
 
+two_truck_candidate:
+  participant: barney_rubble (Candidate)
+  interview: second_driver_interview
+
 two_truck_manager:
-  interviewer: fleet_manger
+  participant: fleet_manager (Interviewer)
   interview: second_driver_interview
 
 two_truck_hr:
-  interviewer: hr
+  participant: hr (Interviewer)
   interview: second_driver_interview
 
 two_truck_union:
-  interviewer: union
+  participant: union (Interviewer)
   interview: second_driver_interview
 
+one_lift_candidate:
+  participant: bill_snakey (Candidate)
+  interview: first_forklift_interview
+
 one_lift_manager:
-  interviewer: warehouse
+  participant: warehouse (Interviewer)
   interview: first_forklift_interview
 
 one_lift_hr:
-  interviewer: hr
+  participant: hr (Interviewer)
   interview: first_forklift_interview
 
 one_lift_union:
-  interviewer: union
+  participant: union (Interviewer)
   interview: first_forklift_interview
 
+two_lift_candidate:
+  participant: maude_flanders (Candidate)
+  interview: second_forklift_interview
+
 two_lift_manager:
-  interviewer: warehouse
+  participant: warehouse (Interviewer)
   interview: second_forklift_interview
 
 two_lift_hr:
-  interviewer: hr
+  participant: hr (Interviewer)
   interview: second_forklift_interview
 
 two_lift_union:
-  interviewer: union
+  participant: union (Interviewer)
   interview: second_forklift_interview
 
-manager_warehouse:
-  interviewer: warehouse
+manager_candidate:
+  participant: bill_snakey (Candidate)
   interview: first_manager_interview
 
-manager_hr:
-  interviewer: warehouse
+manager_warehouse:
+  participant: warehouse (Interviewer)
+  interview: first_manager_interview
+
+manager_hr_candidate:
+  participant: barney_rubble (Candidate)
   interview: hr
 
-
+manager_hr:
+  participant: warehouse (Interviewer)
+  interview: hr
