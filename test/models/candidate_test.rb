@@ -10,7 +10,7 @@ class CandidateTest < ActiveSupport::TestCase
     c = candidates(:barney_rubble)
     ratings = c.answer_ratings.map(&:rating).reject{|r| r == 0}
     average = ratings.sum.fdiv(ratings.size)
-    assert c.average_rating == average
+    assert c.average_rating.round(2) == average.round(2)
   end
 
 end
